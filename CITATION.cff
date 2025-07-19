@@ -1,0 +1,25 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Multiphase Cyanobacteria Bloom Matlab '
+message: >-
+  The is the software and data used in the paper Brown,
+  Munther, Ryan Article
+type: software
+authors:
+  - given-names: Shawn
+    family-names: Ryan
+    email: s.d.ryan@csuohio.edu
+    affiliation: Cleveland State University
+    orcid: 'https://orcid.org/0000-0003-2468-1827'
+repository-code: 'https://github.com/sdryan/CyanobacteriaBlooms'
+url: 'https://academic.csuohio.edu/ryan-shawn/'
+abstract: >-
+  Matlab code and data sets associate with multi-phase algal
+  (cyanobacteria) bloom formation.
+keywords:
+  - Cyanobacteria
+  - Algal Bloom
+  - Mathematical Biology
+license: MIT
