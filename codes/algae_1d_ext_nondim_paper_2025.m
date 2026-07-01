@@ -30,7 +30,7 @@ kn = 530; %mug/L half life of chemical
 qn = 530;  %mug/L half life of chemical
 v = 0; %Background fluid flow in domain
 k = 0; %Effect of fluid flow on bacteria; or chem concentrations
-delta = .0025; %Estimate of decay rate of bacteria
+delta = 0.0025; %Estimate of decay rate of bacteria
 gamma = .0025; %Estimate of decay rate of chem
 eta1 = .0091; % Consumption Rate of N by Mike
 zeta1 = eta1; % Consumption Rate of N by Ana
@@ -204,10 +204,10 @@ for k = 1:Time/dt
 
     drawnow
     
-       Track = Track + 1;
-out=sprintf('Algae_mov_%3.3d.jpg',Track);
-filename=sprintf('Algae_mov_%3.3d.jpg',Track);
-saveas(gcf,filename)
+%       Track = Track + 1;
+%out=sprintf('Algae_mov_%3.3d.jpg',Track);
+%filename=sprintf('Algae_mov_%3.3d.jpg',Track);
+%saveas(gcf,filename)
     end
 end
 
