@@ -1,7 +1,7 @@
 # CyanobacteriaBlooms
 Files and Data associated with Brown, Munther, Ryan Article
 
-# Modeling Multi-Phase Growth in Cyanobacterial Harmful Algal Blooms
+# Species succession explains why cyanobacterial blooms persist after nutrient reduction
 
 Simulation and analysis code for the manuscript by A. M. Brown, D. S. Munther, and S. D. Ryan.
 
